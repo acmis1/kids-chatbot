@@ -1,1 +1,18 @@
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F1F1;
+}
+/* Header Styles */
+header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background: #E8AA42;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
