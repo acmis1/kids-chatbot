@@ -6,13 +6,63 @@ body {
 }
 /* Header Styles */
 header {
+    margin-bottom: 100px;
     top: 0;
     left: 0;
     position: fixed;
     width: 100%;
-    background: #E8AA42;
+    background: linear-gradient(135deg, #F2D7D9, #D3CEDF); 
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .title {
+    font-family: 'Mystery Quest', cursive;
+    color: #2C3639; 
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 1rem;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-5px); }
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 2%;
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-list li {
+    margin-left: 20px;
+  }
+  
+  .navbar-list li:first-child {
+    margin-left: 0;
+  }
+  
+  .navbar-list li a {
+    font-family: 'Mystery Quest', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2C3639; 
+    transition: color 0.3s ease;
+    cursor: none;
+  }
+  
+  .navbar-list li a:hover {
+    color: #E57C23; 
   }
