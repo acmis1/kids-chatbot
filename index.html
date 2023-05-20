@@ -19,5 +19,26 @@
             </ul>
         </nav>
     </header>
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-log" id="chat-log">
+                <div class="chat-message bot-message">
+                    <div class="bot-avatar">
+                        <img src="chatbot.gif" alt="Bot Avatar" class="animated-avatar">
+                    </div>
+                    <div class="bot-message-content">
+                        <div class="bot-message-text">Hello! What's your name?</div>
+                    </div>
+                </div>
+            </div>
+            <form id="message-form">
+                <input type="text" id="user-message-input" class="user-input" placeholder="Type your message..." autocomplete="off">
+                <button type="submit" class="send-button">
+                    <span>Send</span>
+                  </button>                  
+            </form>
+        </div>
+    </div>
+ 
   
      <script src="script_chatbot.js"></script>
