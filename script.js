@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return `
                 <div class="chat-message bot-message">
                     <div class="bot-avatar">
-                        <img src="giphy.gif" alt="Bot Avatar">
+                        <img src="chatbot.gif" alt="Bot Avatar">
                     </div>
                     <div class="bot-message-content">
                         <div class="bot-message-text">Nice to meet you, ${user}! How can I assist you?</div>
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return `
                 <div class="chat-message bot-message">
                     <div class="bot-avatar">
-                        <img src="giphy.gif" alt="Bot Avatar">
+                        <img src="chatbot.gif" alt="Bot Avatar">
                     </div>
                     <div class="bot-message-content">
                         <div class="bot-message-text">Hello, ${user}! How can I assist you?</div>
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return `
             <div class="chat-message bot-message">
                 <div class="bot-avatar">
-                    <img src="giphy.gif" alt="Bot Avatar">
+                    <img src="chatbot.gif" alt="Bot Avatar">
                 </div>
                 <div class="bot-message-content">
                     <div class="bot-message-text">I'm sorry, I didn't understand that. Can you please rephrase?</div>
