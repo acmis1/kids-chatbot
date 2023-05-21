@@ -142,3 +142,20 @@ header {
     border-radius: 5px 0 0 5px;
     cursor: none;
   }
+
+
+  .chat-log::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  .chat-log::-webkit-scrollbar-track {
+    background-color: #6a974a; /* Background color of the scrollbar track */
+  }
+  
+  .chat-log::-webkit-scrollbar-thumb {
+    background-color: #025464; /* Color of the scrollbar thumb */
+  }
+  
+  .chat-log::-webkit-scrollbar-thumb:hover {
+    background-color: #05313a; /* Color of the scrollbar thumb on hover */
+  }
